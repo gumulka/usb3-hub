@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "g-Connector_USB")(type "KiCad")(uri "${KIPRJMOD}/libraries/g-Connector_USB.pretty")(options "")(descr ""))
+  (lib (name "g-Package_DFN")(type "KiCad")(uri "${KIPRJMOD}/libraries/g-Package_DFN.pretty")(options "")(descr ""))
+)

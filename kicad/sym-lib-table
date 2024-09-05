@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "g-power")(type "KiCad")(uri "${KIPRJMOD}/libraries/g-power.kicad_sym")(options "")(descr ""))
+  (lib (name "g-usb")(type "KiCad")(uri "${KIPRJMOD}/libraries/g-usb.kicad_sym")(options "")(descr ""))
+)
