@@ -6847,16 +6847,6 @@
 		)
 		(uuid "ffc2aec3-5151-4bb4-963e-603cff5a3eea")
 	)
-	(text "20pF Load Capacitance"
-		(exclude_from_sim no)
-		(at 29.21 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "01b83003-63f1-4097-9b5e-fe186785a4c4")
-	)
 	(text "USB 3.0 HUB"
 		(exclude_from_sim no)
 		(at 13.97 19.05 0)
@@ -6870,6 +6860,7 @@
 	)
 	(label "Port6.SSTX-"
 		(at 203.2 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6968,6 +6959,7 @@
 	)
 	(label "Port6.SSRX-"
 		(at 203.2 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7055,6 +7047,7 @@
 	)
 	(label "Port6.SSTX+"
 		(at 203.2 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7340,6 +7333,7 @@
 	)
 	(label "Port6.SPEED_IND"
 		(at 203.2 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,6 +7443,7 @@
 	)
 	(label "Port6.DP+"
 		(at 203.2 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7459,6 +7454,7 @@
 	)
 	(label "Port6.PRT_CTRL"
 		(at 203.2 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7535,6 +7531,7 @@
 	)
 	(label "Port6.SSRX+"
 		(at 203.2 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7567,6 +7564,7 @@
 	)
 	(label "Port6.DP-"
 		(at 203.2 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Value" "25Mhz 50ppm"
+		(property "Value" "25Mhz"
 			(at 63.5 177.8 0)
 			(effects
 				(font
@@ -8104,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 53.34 181.61 0)
 			(effects
 				(font
@@ -8123,6 +8121,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNo" "ABM8G-25.000MHZ-B4Y-T"
 			(at 53.34 181.61 0)
 			(effects
 				(font
@@ -10942,7 +10949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10pF"
 			(at 43.18 189.2362 0)
 			(effects
 				(font
@@ -11728,7 +11735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10pF"
 			(at 62.23 189.2362 0)
 			(effects
 				(font
