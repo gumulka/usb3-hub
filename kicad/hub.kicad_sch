@@ -743,7 +743,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -869,7 +869,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -887,7 +887,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -923,7 +923,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -941,7 +941,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -977,7 +977,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -995,7 +995,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -1013,7 +1013,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -1031,7 +1031,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -1049,7 +1049,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -1067,7 +1067,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -1175,7 +1175,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -1283,7 +1283,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -1301,7 +1301,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -1319,7 +1319,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"
@@ -1337,7 +1337,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 44.45 270)
 					(length 2.54) hide
 					(name "VDD33"
@@ -1355,7 +1355,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 44.45 270)
 					(length 2.54) hide
 					(name "VDD12"

@@ -1,0 +1,62 @@
+on:
+  push:
+    paths:
+      - kicad/**
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  check_board:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:8.0
+      options: --user root
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Run ERC
+        id: erc
+        run: |
+          cp -r /home/kicad/.config $HOME
+          kicad-cli sch erc -o erc.rpt --exit-code-violations kicad/usb3-hub.kicad_sch
+
+      # Upload ERC report only if ERC failed
+      - name: Upload ERC report
+        uses: actions/upload-artifact@v4
+        if: ${{ failure() && steps.erc.conclusion == 'failure' }}
+        with:
+          name: erc.rpt
+          path: ${{ github.workspace }}/erc.rpt
+
+  create_schematics:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:8.0
+      options: --user root
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-tags: true
+          fetch-depth: 0
+
+      - name: Create Schematic
+        run: |
+          mkdir output
+          pwd
+          git config --global --add safe.directory /__w/usb3-hub/usb3-hub
+          kicad-cli sch export pdf -D date=`date "+%d.%m.%Y"` -D revision=`git describe --tags` -o output/usb3_hub_sch.pdf kicad/usb3-hub.kicad_sch
+
+      - name: Upload artifact for deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
