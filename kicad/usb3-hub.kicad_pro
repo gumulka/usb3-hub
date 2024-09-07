@@ -252,10 +252,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|863600|1333500|80565b9e-4343-4575-bb8e-e555882c7277|0d3d9c7f-9b05-4cb0-95f9-335cd44e85fd|/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885|/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885|/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885",
-      "multiple_net_names|914400|1333500|d71ea7d8-b8e7-41e4-b86f-f4a69bbf347d|57f49be3-97c7-4c55-ae74-8f8ede49bc9a|/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885|/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885|/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -694,27 +691,27 @@
     ],
     [
       "ba351116-7014-4061-a218-c14d18cd07d7",
-      "Port1"
-    ],
-    [
-      "e8738ec1-5cf3-402b-90e5-f9a9a49acb36",
-      "Port2"
-    ],
-    [
-      "a4bd64a1-b253-4895-8aa2-8555fbc6d895",
-      "Port3"
-    ],
-    [
-      "9f8a5db8-b0b8-4650-a3b6-687f7418ce2a",
       "Port4"
     ],
     [
-      "8630f389-c276-479d-b9fc-6296f8ff2e6c",
+      "e8738ec1-5cf3-402b-90e5-f9a9a49acb36",
       "Port5"
     ],
     [
-      "cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876",
+      "a4bd64a1-b253-4895-8aa2-8555fbc6d895",
       "Port6"
+    ],
+    [
+      "9f8a5db8-b0b8-4650-a3b6-687f7418ce2a",
+      "Port1"
+    ],
+    [
+      "8630f389-c276-479d-b9fc-6296f8ff2e6c",
+      "Port2"
+    ],
+    [
+      "cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876",
+      "Port3"
     ]
   ],
   "text_variables": {

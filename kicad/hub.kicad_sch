@@ -11,289 +11,6 @@
 		(company "Fabian Pflug")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -3399,12 +3116,6 @@
 		(uuid "83744b3b-cc52-4092-a2fe-d6c77d0ffda4")
 	)
 	(junction
-		(at 127 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aa7b04f-fabb-4b91-9a49-a43b7f2ccf4f")
-	)
-	(junction
 		(at 261.62 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3489,12 +3200,6 @@
 		(uuid "c1fa6b50-92a4-450a-a39a-2199eddce18a")
 	)
 	(junction
-		(at 57.15 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf368693-f7fe-453f-a113-c0cb3b4502c2")
-	)
-	(junction
 		(at 158.75 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3535,6 +3240,10 @@
 	(no_connect
 		(at 254 82.55)
 		(uuid "8ee0fef9-6a52-4b2a-9be1-32415eeefda5")
+	)
+	(no_connect
+		(at 104.14 140.97)
+		(uuid "bfef43e4-4382-4934-bc6d-63cb4b8eea1d")
 	)
 	(no_connect
 		(at 254 85.09)
@@ -5269,16 +4978,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 125.73) (xy 57.15 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee4542a-48ae-4526-a0b6-17fd8abc60c6")
-	)
-	(wire
-		(pts
 			(xy 204.47 152.4) (xy 193.04 152.4)
 		)
 		(stroke
@@ -5296,16 +4995,6 @@
 			(type default)
 		)
 		(uuid "8139074f-2722-49bb-b1bf-903b63865b63")
-	)
-	(wire
-		(pts
-			(xy 58.42 156.21) (xy 62.23 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8252fda5-81f1-4e74-9ebb-2bf6f8127ce5")
 	)
 	(wire
 		(pts
@@ -5396,16 +5085,6 @@
 			(type default)
 		)
 		(uuid "897fe055-1fc9-4e2b-99fe-1acbd7feda7c")
-	)
-	(wire
-		(pts
-			(xy 57.15 120.65) (xy 57.15 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f4eb1f-f81e-47a4-bc91-21845653aa21")
 	)
 	(bus
 		(pts
@@ -5516,16 +5195,6 @@
 			(type default)
 		)
 		(uuid "92d28e0b-150d-4edf-95d9-259708442a71")
-	)
-	(wire
-		(pts
-			(xy 58.42 148.59) (xy 73.66 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9303943b-6474-4807-b029-f38d0e9f315b")
 	)
 	(wire
 		(pts
@@ -5829,7 +5498,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 125.73) (xy 63.5 125.73)
+			(xy 44.45 125.73) (xy 63.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5876,16 +5545,6 @@
 			(type default)
 		)
 		(uuid "b275ff9e-dab8-491c-ba89-c596af7d6708")
-	)
-	(wire
-		(pts
-			(xy 58.42 146.05) (xy 73.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b451e36d-3735-4ab0-a27d-f7fc6f31d96b")
 	)
 	(wire
 		(pts
@@ -6106,6 +5765,16 @@
 			(type default)
 		)
 		(uuid "c7c41582-1b2d-442a-a9f2-9253d361e104")
+	)
+	(wire
+		(pts
+			(xy 58.42 148.59) (xy 73.66 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80fb6e2-7a50-4bdd-8c87-60d076754620")
 	)
 	(wire
 		(pts
@@ -6346,6 +6015,16 @@
 			(type default)
 		)
 		(uuid "d3d3ae01-ccd6-4b92-ae37-75ad7b0a19d3")
+	)
+	(wire
+		(pts
+			(xy 67.31 146.05) (xy 73.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b312c5-c717-4562-aa4f-3b241df2d5f4")
 	)
 	(wire
 		(pts
@@ -7067,17 +6746,6 @@
 		)
 		(uuid "468d5906-c2f6-49f1-8c3b-ae4b11e6fe98")
 	)
-	(label "SPI_CLK"
-		(at 62.23 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "49098359-ba6c-4def-b699-4b8688e68ed1")
-	)
 	(label "Port1.DP-"
 		(at 152.4 27.94 0)
 		(fields_autoplaced yes)
@@ -7222,13 +6890,13 @@
 		(uuid "7fe41960-ae78-4a67-9b86-b33b4d7f3731")
 	)
 	(label "CFG_BC_EN"
-		(at 71.12 151.13 180)
+		(at 58.42 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "80f16c68-e4c0-40ab-8b35-b1a6bc672b3d")
 	)
@@ -7244,7 +6912,7 @@
 		(uuid "8269ef54-a754-4f30-9ea4-4a575d4097ca")
 	)
 	(label "CFG_NON_REM"
-		(at 59.69 153.67 0)
+		(at 58.42 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7506,17 +7174,6 @@
 			(justify left bottom)
 		)
 		(uuid "e29b6675-0094-404a-9c4e-e86755d34923")
-	)
-	(label "SPI_DO"
-		(at 62.23 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "e98decc0-9501-49a0-8e6b-e46b34dc9537")
 	)
 	(label "Port7.PRT_CTRL"
 		(at 254 97.79 0)
@@ -9049,7 +8706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 104.14 167.64 0)
 			(effects
 				(font
@@ -10664,73 +10321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3032e0b3-5827-4f29-a850-f9e6e5f00bb1")
-		(property "Reference" "TP201"
-			(at 54.61 116.0779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 54.61 118.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 52.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecd68260-fc11-438e-9bc3-fb3f223ab97c")
-		)
-		(instances
-			(project "usb3-hub"
-				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
-					(reference "TP201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 191.77 0)
 		(unit 1)
@@ -10791,140 +10381,6 @@
 			(project "usb3-hub"
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
 					(reference "#PWR0223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34c2f2d9-c6da-4b90-89cd-39c9c1afb38b")
-		(property "Reference" "TP203"
-			(at 132.08 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 132.08 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00028a0e-f222-4619-82c7-e823efc83878")
-		)
-		(instances
-			(project "usb3-hub"
-				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
-					(reference "TP203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e3d0e0-fc9d-4f75-a600-ba42d3a26380")
-		(property "Reference" "#PWR0217"
-			(at 68.58 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62359c6f-82cd-488f-bb95-bb22591f0039")
-		)
-		(instances
-			(project "usb3-hub"
-				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
-					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -11432,6 +10888,71 @@
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
 					(reference "U201")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ddb6c2-497f-4a6a-83d4-7a71829b88a3")
+		(property "Reference" "TP201"
+			(at 64.008 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.008 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 67.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f8f3293-9b25-41db-9b2b-981a806687a3")
+		)
+		(instances
+			(project "usb3-hub"
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
+					(reference "TP201")
+					(unit 1)
 				)
 			)
 		)
@@ -12127,83 +11648,6 @@
 			(project ""
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
 					(reference "R213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 53.34 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6669dca1-278c-4891-8f5e-bc2eb2c512a8")
-		(property "Reference" "J201"
-			(at 53.975 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 53.975 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 53.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 53.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c1efa567-f568-4036-9137-178e9f0b470b")
-		)
-		(pin "3"
-			(uuid "9d532ff4-2215-40fd-9848-f654df014640")
-		)
-		(pin "2"
-			(uuid "76967bff-28ad-4d20-944f-58fa9d9029ae")
-		)
-		(pin "5"
-			(uuid "fb4978cc-d80b-4a6a-95b8-e1732262bcb2")
-		)
-		(pin "1"
-			(uuid "93546200-7385-4eee-bcf7-58f048fb75e0")
-		)
-		(instances
-			(project ""
-				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
-					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -14642,7 +14086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 104.14 172.72 0)
 			(effects
 				(font
@@ -14878,73 +14322,6 @@
 			(project "usb3-hub"
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
 					(reference "#PWR0216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 104.14 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3475a59-f74a-4fa3-a04d-0caf07440384")
-		(property "Reference" "TP202"
-			(at 109.22 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.22 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f96cbb1e-8788-45ff-98f5-00da1ccf703e")
-		)
-		(instances
-			(project ""
-				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
-					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -15283,6 +14660,71 @@
 			(project "usb3-hub"
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
 					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc02dac-12d5-404b-a388-35b47537a2af")
+		(property "Reference" "TP202"
+			(at 55.118 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 58.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "746f5e43-03aa-4025-9968-3493cea69774")
+		)
+		(instances
+			(project "usb3-hub"
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/d6d798c0-ff7b-4583-a6d4-269c19e2e885"
+					(reference "TP202")
 					(unit 1)
 				)
 			)

@@ -3537,6 +3537,12 @@
 		(uuid "62054043-05ec-4503-a002-36cf134dfda6")
 	)
 	(junction
+		(at 257.81 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63176b9c-eb36-4f40-9619-f66988034b08")
+	)
+	(junction
 		(at 257.81 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3577,6 +3583,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be35d6e5-6c4e-4c3d-a11e-0043c0af3fc6")
+	)
+	(junction
+		(at 242.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c19d2e15-41b8-47be-9043-4b0cfa5bae45")
 	)
 	(junction
 		(at 245.11 30.48)
@@ -3903,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 119.38) (xy 257.81 125.73)
+			(xy 257.81 119.38) (xy 257.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4163,7 +4175,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 114.3) (xy 176.53 114.3)
+			(xy 250.19 114.3) (xy 242.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4483,6 +4495,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 114.3) (xy 242.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b948010-6c6b-4f5d-9f90-89b962c25c72")
+	)
+	(wire
+		(pts
 			(xy 109.22 88.9) (xy 125.73 88.9)
 		)
 		(stroke
@@ -4640,6 +4662,16 @@
 			(type default)
 		)
 		(uuid "8cf35896-d37a-4305-b638-41ab4d43695e")
+	)
+	(wire
+		(pts
+			(xy 242.57 128.27) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8faeeff6-fd90-4fc0-8a56-e315714d59f7")
 	)
 	(wire
 		(pts
@@ -4813,6 +4845,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 124.46) (xy 242.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43c2f2d-b799-487b-86c5-8cbeb17052e6")
+	)
+	(wire
+		(pts
 			(xy 146.05 44.45) (xy 148.59 44.45)
 		)
 		(stroke
@@ -4963,6 +5005,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 128.27) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2815be-ba52-4ba8-b6fe-94b831df8425")
+	)
+	(wire
+		(pts
 			(xy 125.73 101.6) (xy 80.01 101.6)
 		)
 		(stroke
@@ -5000,6 +5052,16 @@
 			(type default)
 		)
 		(uuid "c0fb3558-cc13-4a4a-a741-f7c973cb65e5")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 176.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c243aae7-65ef-4393-9a10-959d53fefeb8")
 	)
 	(wire
 		(pts
@@ -8022,7 +8084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 125.73 0)
+		(at 257.81 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8031,7 +8093,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ec81b4f-0de9-4414-a5e2-6f458de9a026")
 		(property "Reference" "#PWR0318"
-			(at 257.81 132.08 0)
+			(at 257.81 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 130.81 0)
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 125.73 0)
+			(at 257.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 125.73 0)
+			(at 257.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 125.73 0)
+			(at 257.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,6 +8143,76 @@
 			(project "usb3-hub"
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/e484743e-481f-4d37-adb3-d786ac2b08fb"
 					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aad9274-3ea4-4493-8e44-8d2b8563cfa0")
+		(property "Reference" "R301"
+			(at 245.11 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 245.11 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 240.792 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a380b40-24dd-46f8-ba66-a39e5ab63207")
+		)
+		(pin "2"
+			(uuid "b0f7d835-1a49-4959-b075-d34a9a3465a4")
+		)
+		(instances
+			(project ""
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/e484743e-481f-4d37-adb3-d786ac2b08fb"
+					(reference "R301")
 					(unit 1)
 				)
 			)

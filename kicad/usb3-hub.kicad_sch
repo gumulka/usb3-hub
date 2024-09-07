@@ -9851,7 +9851,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1964660a-2eaf-4e30-8e25-1e444a5e5f1f")
+			(uuid "1964660a-2eaf-4e30-8e25-1e444a5e5f20")
 		)
 		(instances
 			(project ""
@@ -10194,7 +10194,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1964660a-2eaf-4e30-8e25-1e444a5e5f1f")
+			(uuid "1964660a-2eaf-4e30-8e25-1e444a5e5f21")
 		)
 		(instances
 			(project ""
@@ -11156,7 +11156,7 @@
 			(color 195 255 238 1.0000)
 		)
 		(uuid "8630f389-c276-479d-b9fc-6296f8ff2e6c")
-		(property "Sheetname" "Port5"
+		(property "Sheetname" "Port2"
 			(at 217.17 119.9384 0)
 			(effects
 				(font
@@ -11214,7 +11214,7 @@
 			(color 195 255 238 1.0000)
 		)
 		(uuid "9f8a5db8-b0b8-4650-a3b6-687f7418ce2a")
-		(property "Sheetname" "Port4"
+		(property "Sheetname" "Port1"
 			(at 217.17 97.0784 0)
 			(effects
 				(font
@@ -11272,7 +11272,7 @@
 			(color 213 255 203 1.0000)
 		)
 		(uuid "a4bd64a1-b253-4895-8aa2-8555fbc6d895")
-		(property "Sheetname" "Port3"
+		(property "Sheetname" "Port6"
 			(at 217.17 72.9484 0)
 			(effects
 				(font
@@ -11340,7 +11340,7 @@
 			(color 213 255 203 1.0000)
 		)
 		(uuid "ba351116-7014-4061-a218-c14d18cd07d7")
-		(property "Sheetname" "Port1"
+		(property "Sheetname" "Port4"
 			(at 217.17 27.2284 0)
 			(effects
 				(font
@@ -11408,7 +11408,7 @@
 			(color 195 255 238 1.0000)
 		)
 		(uuid "cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876")
-		(property "Sheetname" "Port6"
+		(property "Sheetname" "Port3"
 			(at 217.17 142.7984 0)
 			(effects
 				(font
@@ -11762,7 +11762,7 @@
 			(color 213 255 203 1.0000)
 		)
 		(uuid "e8738ec1-5cf3-402b-90e5-f9a9a49acb36")
-		(property "Sheetname" "Port2"
+		(property "Sheetname" "Port5"
 			(at 217.17 50.0884 0)
 			(effects
 				(font
