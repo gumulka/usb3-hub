@@ -9103,6 +9103,25 @@
 			"1mZt1mZtFgD/P7L7WOY41RveAAAAAElFTkSuQmCC"
 		)
 	)
+	(text_box "SSTx and SSRX are polarity swapped for better routing.\nUSB allows this for the USB3.0 signals"
+		(exclude_from_sim no)
+		(at 105.41 123.19 0)
+		(size 24.13 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2cb979eb-5145-4660-a7ca-88ffc53554a2")
+	)
 	(text "DC"
 		(exclude_from_sim no)
 		(at 105.41 168.91 0)
@@ -9185,7 +9204,7 @@
 		(uuid "2bf3b420-391a-45a0-b062-7b1f01db9cd5")
 	)
 	(label "Port0.SSTX+"
-		(at 119.38 114.3 0)
+		(at 119.38 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9196,7 +9215,7 @@
 		(uuid "33026416-0ed5-4714-ade7-b05759078183")
 	)
 	(label "ADC0"
-		(at 245.11 30.48 0)
+		(at 245.11 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9240,7 +9259,7 @@
 		(uuid "7502c8e0-2397-41ce-a7ea-f4cabc8c5fba")
 	)
 	(label "Port0.SSTX-"
-		(at 119.38 111.76 0)
+		(at 119.38 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9262,7 +9281,7 @@
 		(uuid "9182cf6e-3a60-4eeb-89bc-efde5e7d0332")
 	)
 	(label "ADC2"
-		(at 243.84 76.2 0)
+		(at 245.11 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9328,7 +9347,7 @@
 		(uuid "c0e9447f-b6a1-4d0b-a4eb-00da0bb49c03")
 	)
 	(label "Port0.SSRX-"
-		(at 119.38 119.38 0)
+		(at 119.38 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9339,7 +9358,7 @@
 		(uuid "ca9885f9-9dd1-49de-adc7-bace6a2ff3c5")
 	)
 	(label "Port0.SSRX+"
-		(at 119.38 121.92 0)
+		(at 119.38 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
