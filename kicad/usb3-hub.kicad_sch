@@ -9160,7 +9160,7 @@
 		(uuid "c2f5ff09-6f4b-44e3-8853-45118bfcd394")
 	)
 	(label "TOGGLE6"
-		(at 243.84 157.48 0)
+		(at 245.11 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9193,7 +9193,7 @@
 		(uuid "23966162-9743-4c4a-8c3f-89130d60861f")
 	)
 	(label "TOGGLE5"
-		(at 243.84 134.62 0)
+		(at 245.11 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9303,7 +9303,7 @@
 		(uuid "9fa0fa5f-250a-47d9-b4e6-f8a5a1a5247b")
 	)
 	(label "TOGGLE1"
-		(at 243.84 41.91 0)
+		(at 245.11 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9336,7 +9336,7 @@
 		(uuid "bd203c52-4a5e-4674-9773-4026564a3ea6")
 	)
 	(label "TOGGLE3"
-		(at 243.84 87.63 0)
+		(at 245.11 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9380,7 +9380,7 @@
 		(uuid "dd1b260b-f943-4f80-a44b-2e6c47e39edf")
 	)
 	(label "TOGGLE2"
-		(at 243.84 64.77 0)
+		(at 245.11 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9391,7 +9391,7 @@
 		(uuid "e54c2aae-fe3c-4ade-81e8-68da0012756b")
 	)
 	(label "TOGGLE4"
-		(at 243.84 111.76 0)
+		(at 245.11 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
