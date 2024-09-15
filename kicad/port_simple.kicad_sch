@@ -1899,6 +1899,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 151.13) (xy 25.4 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066da981-7e3f-4c8c-b935-c49046693378")
+	)
+	(wire
+		(pts
 			(xy 267.97 137.16) (xy 267.97 140.97)
 		)
 		(stroke
@@ -1976,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "2adfeca9-97f2-44b4-a5a8-b350217b557f")
+	)
+	(wire
+		(pts
+			(xy 53.34 151.13) (xy 57.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305c593b-4856-407a-9107-1a53985cce9c")
 	)
 	(bus
 		(pts
@@ -2199,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 151.13) (xy 43.18 151.13)
+			(xy 38.1 151.13) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2346,6 +2366,16 @@
 			(type default)
 		)
 		(uuid "ba02e425-7121-4131-9223-e1c9eb2f9a57")
+	)
+	(wire
+		(pts
+			(xy 33.02 151.13) (xy 38.1 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc46ff0b-0b53-41ae-a4ea-d2e27cf8bc3c")
 	)
 	(wire
 		(pts
@@ -2513,6 +2543,17 @@
 		)
 		(uuid "08c49564-5f5b-46bf-bef2-654be564eff7")
 	)
+	(label "~{Flag}"
+		(at 19.05 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1779c0db-9a61-41fd-a90b-5b3b21b96dde")
+	)
 	(label "SSRX-"
 		(at 212.09 57.15 180)
 		(fields_autoplaced yes)
@@ -2659,7 +2700,7 @@
 	)
 	(hierarchical_label "TOGGLE_REQ"
 		(shape output)
-		(at 43.18 151.13 0)
+		(at 57.15 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2816,6 +2857,82 @@
 				)
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876"
 					(reference "C1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35694d7f-2980-449a-b122-4e71acee00ad")
+		(property "Reference" "R808"
+			(at 49.53 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 49.53 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 49.53 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11da6c2b-9ed7-44ae-9e6e-2a44f74e9397")
+		)
+		(pin "2"
+			(uuid "133027d0-70c4-42b8-8022-49046f42b78e")
+		)
+		(instances
+			(project "usb3-hub"
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/8630f389-c276-479d-b9fc-6296f8ff2e6c"
+					(reference "R908")
+					(unit 1)
+				)
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/9f8a5db8-b0b8-4650-a3b6-687f7418ce2a"
+					(reference "R808")
+					(unit 1)
+				)
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876"
+					(reference "R1008")
 					(unit 1)
 				)
 			)
@@ -4750,6 +4867,82 @@
 				)
 				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876"
 					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e6edb228-6168-4f1b-a3c2-133b6ccbd6ac")
+		(property "Reference" "R807"
+			(at 29.21 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 29.21 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 29.21 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6cba50a-13b1-4b1e-963e-9866fdb61116")
+		)
+		(pin "2"
+			(uuid "e7f1a1c7-6982-44a3-aed9-797699abc752")
+		)
+		(instances
+			(project "usb3-hub"
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/8630f389-c276-479d-b9fc-6296f8ff2e6c"
+					(reference "R907")
+					(unit 1)
+				)
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/9f8a5db8-b0b8-4650-a3b6-687f7418ce2a"
+					(reference "R807")
+					(unit 1)
+				)
+				(path "/fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5/cfed4b24-84a1-4de4-9f0d-ad8bcfe8d876"
+					(reference "R1007")
 					(unit 1)
 				)
 			)

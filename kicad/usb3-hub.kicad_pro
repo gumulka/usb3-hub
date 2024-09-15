@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.34,
+          "width": 0.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -675,7 +675,7 @@
   "sheets": [
     [
       "fa2d0b8b-d66f-4d1f-bda6-9ad6b6242db5",
-      "Root"
+      "Stammblatt"
     ],
     [
       "d6d798c0-ff7b-4583-a6d4-269c19e2e885",

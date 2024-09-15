@@ -11867,16 +11867,6 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" input
-			(at 93.98 167.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9c42431b-13bf-4b88-84de-6a7aa075c3d1")
-		)
 		(pin "3.3V" output
 			(at 134.62 168.91 0)
 			(effects
@@ -11896,6 +11886,16 @@
 				(justify right)
 			)
 			(uuid "30836936-7c50-45ea-a9d6-6ef2e29a6b7f")
+		)
+		(pin "5V-15V" input
+			(at 93.98 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8201ed1f-6ab6-4182-8903-252adcecc1ab")
 		)
 		(instances
 			(project "usb3-hub"
