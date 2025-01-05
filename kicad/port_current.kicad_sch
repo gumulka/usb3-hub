@@ -1424,7 +1424,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "g-Package_DFN:8-WSON_2x2mm"
 				(at -1.27 7.62 0)
 				(effects
 					(font
@@ -1433,7 +1433,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina381.pdf"
 				(at -1.27 7.62 0)
 				(effects
 					(font
@@ -2197,12 +2197,6 @@
 		(uuid "0250c31d-602c-49c5-ba2e-6614afdbd9d8")
 	)
 	(junction
-		(at 152.4 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "032b8281-a9c8-48bb-bb47-5a4ca1d948a0")
-	)
-	(junction
 		(at 179.07 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2243,6 +2237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e91e2d7-3032-4d79-bdd7-face878f0cb9")
+	)
+	(junction
+		(at 153.67 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "769ec69e-1805-4586-b1d3-61c078d65114")
 	)
 	(junction
 		(at 229.87 44.45)
@@ -2522,16 +2522,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 44.45) (xy 152.4 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32ca1b9a-b85a-4955-80dc-69f8ad403214")
-	)
-	(wire
-		(pts
 			(xy 252.73 74.93) (xy 264.16 74.93)
 		)
 		(stroke
@@ -2599,16 +2589,6 @@
 			(type default)
 		)
 		(uuid "44454908-0c50-4343-81a9-cb21185b0240")
-	)
-	(wire
-		(pts
-			(xy 152.4 44.45) (xy 165.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4454ef91-f565-4cd8-b51c-c7f7b5654202")
 	)
 	(wire
 		(pts
@@ -2692,6 +2672,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 44.45) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f73bdee-443a-4023-996b-d94c51ac7f86")
+	)
+	(wire
+		(pts
 			(xy 125.73 44.45) (xy 138.43 44.45)
 		)
 		(stroke
@@ -2712,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 44.45) (xy 149.86 44.45)
+			(xy 149.86 44.45) (xy 153.67 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2739,16 +2729,6 @@
 			(type default)
 		)
 		(uuid "66d6a08d-bf59-4082-a33b-2409cfe944cb")
-	)
-	(wire
-		(pts
-			(xy 138.43 116.84) (xy 138.43 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c5692ff-ff8b-442f-9ea2-d9b97ad7a029")
 	)
 	(wire
 		(pts
@@ -2920,6 +2900,16 @@
 		)
 		(uuid "a6d84c0d-72ef-4c61-baba-5a0648b09b29")
 	)
+	(wire
+		(pts
+			(xy 153.67 44.45) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e674c1-1dda-42c4-bda7-3c156037042d")
+	)
 	(bus
 		(pts
 			(xy 187.96 74.93) (xy 196.85 74.93)
@@ -3082,6 +3072,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 44.45) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd1786b-904c-48ed-86b4-694c0d6b6feb")
+	)
+	(wire
+		(pts
 			(xy 252.73 74.93) (xy 252.73 77.47)
 		)
 		(stroke
@@ -3132,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 152.4 119.38)
+			(xy 124.46 119.38) (xy 153.67 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3457,7 +3457,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "014b129b-5b70-41f5-9b74-3a8b4217bcfb")
-		(property "Reference" "R502"
+		(property "Reference" "R702"
 			(at 29.21 144.78 90)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "BLUE"
 			(at 271.78 147.6374 90)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina381.pdf"
 			(at 111.76 116.84 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51556da-0cb9-42ce-86ab-81fa27a78722")
-		(property "Reference" "R504"
+		(property "Reference" "R704"
 			(at 49.53 144.78 90)
 			(effects
 				(font
@@ -5779,7 +5779,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 271.78 132.3974 90)
 			(effects
 				(font
@@ -6258,7 +6258,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 129.54 58.7374 90)
 			(effects
 				(font

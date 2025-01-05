@@ -2872,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35694d7f-2980-449a-b122-4e71acee00ad")
-		(property "Reference" "R808"
+		(property "Reference" "R908"
 			(at 49.53 144.78 90)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e6edb228-6168-4f1b-a3c2-133b6ccbd6ac")
-		(property "Reference" "R807"
+		(property "Reference" "R907"
 			(at 29.21 144.78 90)
 			(effects
 				(font
